@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "findfilewithextensions"
+version = "0.1.0"
+description = ""
+authors = ["pavel <pavelklimovskoy@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+path = "^16.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
